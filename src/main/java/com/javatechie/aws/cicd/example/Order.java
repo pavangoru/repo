@@ -1,4 +1,4 @@
-package com.javatechie.aws.cicd.example
+package com.javatechie.aws.cicd.example;
 
 
 public class Order {
