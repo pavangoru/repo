@@ -1,9 +1,8 @@
 package com.javatechie.aws.cicd.example;
 
-
 public class Order {
 
-      private int id;
+    private int id;
     private String name;
     private int quantity;
     private long price;
@@ -20,6 +19,7 @@ public class Order {
     
     
     public Order() {
+		// TODO Auto-generated constructor stub
 	}
 	public void setId(int id) {
 		this.id = id;
@@ -40,6 +40,8 @@ public class Order {
 		return price;
 	}
 	public void setPrice(long price) {
-	
+		this.price = price;
+	}
     
+    	
 }
