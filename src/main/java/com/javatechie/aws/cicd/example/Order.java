@@ -3,12 +3,25 @@ package com.javatechie.aws.cicd.example;
 
 public class Order {
 
-    private int id;
+      private int id;
     private String name;
     private int quantity;
     private long price;
     
-    public void setId(int id) {
+    
+    
+    public Order(int id, String name, int quantity, long price) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.quantity = quantity;
+		this.price = price;
+	}
+    
+    
+    public Order() {
+	}
+	public void setId(int id) {
 		this.id = id;
 	}
 	public String getName() {
@@ -27,19 +40,6 @@ public class Order {
 		return price;
 	}
 	public void setPrice(long price) {
-		this.price = price;
-	}
-    
-    	public Demo(int id, String name, int quantity, long price) {
-		super();
-		this.id = id;
-		this.name = name;
-		this.quantity = quantity;
-		this.price = price;
-	}
 	
-	public Demo() {
-		// TODO Auto-generated constructor stub
-	}
     
 }
