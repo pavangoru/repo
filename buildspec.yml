@@ -1,6 +1,8 @@
 version: 0.2
 
 phases:
+  pre_build:
+      - echo nothing to downloaded
   build:
     commands:
       - echo Entered the build phase...
